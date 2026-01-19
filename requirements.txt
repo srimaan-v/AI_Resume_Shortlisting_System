@@ -1,5 +1,5 @@
 streamlit
 pandas
 scikit-learn
-pypdf
+PyPDF2
 nltk
