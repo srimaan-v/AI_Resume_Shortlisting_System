@@ -1,0 +1,88 @@
+{
+  "Full Stack Developer": {
+    "required_skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "SQL"],
+    "preferred_skills": ["MongoDB", "AWS", "Docker"],
+    "education": ["B.Tech", "BE", "BCA"],
+    "certifications": ["AWS", "Full Stack", "React"],
+    "weights": {
+      "skills": 45,
+      "education": 15,
+      "experience_projects": 15,
+      "certifications": 15,
+      "academic_gap": 10
+    }
+  },
+
+  "Cyber Security Analyst": {
+    "required_skills": ["Cyber Security", "Networking", "Linux", "Ethical Hacking"],
+    "preferred_skills": ["SIEM", "Penetration Testing", "SOC"],
+    "education": ["B.Tech", "BE"],
+    "certifications": ["CEH", "Security+"],
+    "weights": {
+    "skills": 55,
+    "education": 15,
+    "experience_projects": 15,
+    "certifications": 5,
+    "academic_gap": 10
+    }
+},
+
+
+  "Software Developer": {
+    "required_skills": ["Java", "Python", "DSA", "OOP", "SQL"],
+    "preferred_skills": ["Spring", "REST API", "Git"],
+    "education": ["B.Tech", "BE"],
+    "certifications": ["Java", "Python", "NPTEL"],
+    "weights": {
+      "skills": 50,
+      "education": 15,
+      "experience_projects": 15,
+      "certifications": 10,
+      "academic_gap": 10
+    }
+  },
+
+  "Data Analyst": {
+    "required_skills": ["Python", "SQL", "Excel", "Pandas", "Data Analysis"],
+    "preferred_skills": ["Power BI", "Tableau", "Statistics"],
+    "education": ["B.Tech", "B.Sc", "BCA"],
+    "certifications": ["Data Analytics", "NPTEL", "Google"],
+    "weights": {
+      "skills": 50,
+      "education": 15,
+      "experience_projects": 15,
+      "certifications": 10,
+      "academic_gap": 10
+    }
+  },
+
+  "Machine Learning Engineer": {
+    "required_skills": ["Python", "Machine Learning", "Scikit-learn", "Pandas"],
+    "preferred_skills": ["TensorFlow", "PyTorch", "Deep Learning"],
+    "education": ["B.Tech", "M.Tech"],
+    "certifications": ["Machine Learning", "AI", "Coursera"],
+    "weights": {
+      "skills": 55,
+      "education": 15,
+      "experience_projects": 15,
+      "certifications": 5,
+      "academic_gap": 10
+    }
+  },
+
+  
+
+  "DevOps Engineer": {
+    "required_skills": ["Linux", "Docker", "Kubernetes", "CI/CD"],
+    "preferred_skills": ["AWS", "Terraform", "Jenkins"],
+    "education": ["B.Tech", "BE"],
+    "certifications": ["AWS", "DevOps"],
+    "weights": {
+      "skills": 55,
+      "education": 15,
+      "experience_projects": 15,
+      "certifications": 5,
+      "academic_gap": 10
+    }
+  }
+}
