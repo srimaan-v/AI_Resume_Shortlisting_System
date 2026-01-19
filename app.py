@@ -9,7 +9,15 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("AI-Based Resume Shortlisting System (Beta)")
+st.markdown("""
+<style>
+div[data-testid="stSelectbox"] * {
+    cursor: pointer !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.title("AI-Based Resume Shortlisting System")
 
 with open("role_templates.json", "r") as f:
     JOB_TEMPLATES = json.load(f)
