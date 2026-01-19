@@ -24,7 +24,9 @@ with open("role_templates.json", "r") as f:
 
 job_role = st.selectbox(
     "Select Job Role",
-    options=list(JOB_TEMPLATES.keys())
+    options=list(JOB_TEMPLATES.keys()),
+    index=None,
+    placeholder="Select Job Role"
 )
 
 uploaded_files = st.file_uploader(
@@ -34,6 +36,10 @@ uploaded_files = st.file_uploader(
 )
 
 if st.button("Analyze & Shortlist"):
+
+    if not job_role:
+        st.warning("⚠️ Please select a job role.")
+        st.stop()
 
     if not uploaded_files:
         st.warning("⚠️ Please upload at least one resume to analyze.")
